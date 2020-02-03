@@ -16,7 +16,7 @@ steps:
     ConnectedServiceName: 'azdevconn'
     subscriptionName: '4c2a01b0-347d-45e1-ac51-36a1d2f59eae'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'demo1'
+    resourceGroupName: 'demo11'
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'azuredeploy.json'
