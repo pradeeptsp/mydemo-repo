@@ -13,10 +13,10 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    ConnectedServiceName: '[EnterYourServiceConnectionName]'
-    subscriptionName: '[EnterTheTargetSubscriptionID]'
+    ConnectedServiceName: 'azdevconn'
+    subscriptionName: 'Free Trial'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: '[EnterANewResourceGroupName]'
+    resourceGroupName: 'demo1'
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateAzureStorage/azuredeploy.json'
